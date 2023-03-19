@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=Gemunu+Libre&family=Josefin+Sans&family=Jost:wght@500&family=Lexend:wght@400;500;800&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR&family=Open+Sans:wght@400;500;600&family=Oxygen&family=Plus+Jakarta+Sans:wght@800&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&family=Prompt&family=Questrial&family=Quicksand:wght@600&family=Roboto+Slab:wght@400;500&family=Tilt+Warp&family=Titillium+Web&display=swap');
+
+* {
+  cursor: url(https://raw.githubusercontent.com/antisyst/selectiomusic/15bfac448f787017e571751e8fb7d5b08efb38a5/custom-cursor.svg), auto;
+}
+a:active {
+  cursor: url(https://raw.githubusercontent.com/antisyst/selectiomusic/bbffaa352c13eaf508b37d122f6774ff9b5471a4/cursor-click-svgrepo-com.svg), auto;
+}
+a:hover {
+  cursor: url(https://raw.githubusercontent.com/antisyst/selectiomusic/66e3509fc60967a903fd946a04c9718124fd462c/cursor-svgrepo-com.svg), auto;
+}
+::selection {
+  background: var(--var-color-component-third);
+}
+a {
+  user-select: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin:0;
+  padding:0;
+  background: var(--var-color-component-black);
+  box-sizing: border-box;
+}
+:root {
+  --var-color-component-advanced: #64ffda;
+  --var-color-component-black: #000;
+  --var-color-component-white: #ffff;
+  --var-color-component-back: #121212;
+  --var-color-component-third: #0e0d0d;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.align-center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.bg-integration-1 {
+  background: radial-gradient(circle at 100% 100%, rgb(100, 255, 218), rgb(0, 0, 0));
+}
+.bg-integration-black {
+  background: var(--var-color-component-black)
+}
+.bg-integration-back {
+  background: var(--var-color-component-back)
+}
+.bg-integration-third {
+  background: var(--var-color-component-third)
+}
+.color-white {
+  color: var(--var-color-component-white)
+}
+.color-black {
+  color: var(--var-color-component-black)
+}
+.color-advanced {
+  color: var(--var-color-component-advanced)
+}
+.bg-bottom-integration {
+  background: linear-gradient(45deg, #000000 25%, transparent 25%), linear-gradient(315deg, #000000 25%, transparent 25%),linear-gradient(45deg, transparent 24%,#64ffda 25%, #64ffda 45%, transparent 45%), linear-gradient(315deg, transparent 24%,#64ffda 25%, #64ffda 45%, transparent 45%);
+        background-size: 3em 3em;
+        background-color: #000000;
+        opacity: 1;
+  height: 200px;
+  margin-top: 20px;
+}
+.font-bold {
+  font-weight: bold;
+}
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+.font-chakra {
+  font-family: 'Chakra Petch', sans-serif;
+}
+.font-lexend {
+  font-family: 'Lexend', sans-serif;
+}
+.font-tilt {
+  font-family: 'Tilt Warp', cursive;
+}
+.font-roboto-slab {
+  font-family: 'Roboto Slab', serif;
+}
+.font-quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+::-webkit-scrollbar {
+  width: 1px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 0;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--var-color-component-black); 
+  border-radius: 0;
+}
+.nav-return-logo:hover {
+  cursor: url(https://raw.githubusercontent.com/antisyst/selectiomusic/66e3509fc60967a903fd946a04c9718124fd462c/cursor-svgrepo-com.svg), auto;
+}
+.custom-cursor-pointer-element {
+  cursor: url(https://raw.githubusercontent.com/antisyst/selectiomusic/66e3509fc60967a903fd946a04c9718124fd462c/cursor-svgrepo-com.svg), auto;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

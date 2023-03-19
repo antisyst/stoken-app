@@ -1,0 +1,159 @@
+.transaction-action-full-router-context {
+    height: 100vh;
+}
+.action-form-align-container {
+    height: 90vh;
+}
+.transaction-action-full-router-context div {
+    width: 30%;
+}
+.custom-input-column-element {
+    outline: none;
+    margin: 5px;
+    transition: all 0.4s ease-out;
+    background: var(--var-color-component-back);
+    padding: 14px 13px;
+    height: 65px;
+    background: var(--var-color-component-black);
+    width: 400px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
+    color: var(--var-color-component-advanced);
+    border: 2px solid var(--var-color-component-advanced);
+}
+.custom-input-column-element::placeholder {
+    color: var(--var-color-component-white);
+    user-select: none;
+    font-size: 17px;
+    transition: all 0.2s ease-out;
+    overflow: hidden;
+}
+.custom-input-column-element:focus::placeholder {
+    color: var(--var-color-component-black);
+    transition: all 0.2s ease-out;
+    overflow: hidden;
+}
+.custom-input-column-element:hover::placeholder {
+    color: var(--var-color-component-advanced);
+    transition: all 0.2s ease-out;
+    overflow: hidden;
+}
+.custom-input-column-element:focus:hover::placeholder {
+    color: var(--var-color-component-black);
+    overflow: hidden;
+    transition: all 0.2s ease-out;
+}
+.custom-input-column-element:hover {
+    transition: all 0.4s ease-out;    
+}
+.field-bottom-like-border-transaction {
+    height: 2px;
+    width: 330px;
+    margin-top: 6px;
+    background: var(--var-color-component-advanced);
+}
+.transaction-last-step-custom-button {
+    background: var(--var-color-component-third);
+    outline: none;
+    padding: 13px 30px;
+    margin-top: 12px;
+    color: var(--var-color-component-advanced);
+    width: 340px;
+    border: 3px solid var(--var-color-component-advanced);
+    transition: all 0.4s ease-out;
+    font-size: 22px;
+    border-radius: 30px;
+}
+.transaction-last-step-custom-button:hover {
+    background: var(--var-color-component-advanced);
+    color: var(--var-color-component-black);
+}
+.custom-showcase-buttons button {
+    text-decoration: none;
+    user-select: none;
+    color: var(--var-color-component-black);
+    margin: 5px;
+    background: var(--var-color-component-advanced);
+    width: 190px;
+    display: flex;
+    transition: all 0.4s ease-out;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border-radius: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.custom-showcase-buttons button:hover {
+    box-shadow: var(--var-color-component-advanced) 0px 5px 15px;
+}
+.custom-showcase-bottom-element-warning svg {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.custom-showcase-bottom-element-warning {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+@media only screen and (max-width: 750px) {
+    .custom-input-column-element {
+        outline: none;
+        margin: 5px;
+        transition: all 0.4s ease-out;
+        background: var(--var-color-component-back);
+        padding: 14px 13px;
+        height: 65px;
+        background: var(--var-color-component-black);
+        width: 340px;
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: bold;
+        border-radius: 6px;
+        color: var(--var-color-component-advanced);
+        border: 2px solid var(--var-color-component-advanced);
+    }
+    .custom-showcase-buttons button {
+        text-decoration: none;
+        user-select: none;
+        color: var(--var-color-component-black);
+        margin: 5px;
+        background: var(--var-color-component-advanced);
+        width: 88%;
+        display: flex;
+        transition: all 0.4s ease-out;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+        border-radius: 10px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .transaction-last-step-custom-button {
+        background: var(--var-color-component-third);
+        outline: none;
+        padding: 13px 30px;
+        margin-top: 12px;
+        color: var(--var-color-component-advanced);
+        width: 300px;
+        border: 3px solid var(--var-color-component-advanced);
+        transition: all 0.4s ease-out;
+        font-size: 22px;
+        border-radius: 30px;
+    }
+    .field-bottom-like-border-transaction {
+        height: 2px;
+        width: 85%;
+        margin-top: 6px;
+        background: var(--var-color-component-advanced);
+    }
+}
+

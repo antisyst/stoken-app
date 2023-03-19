@@ -1,0 +1,56 @@
+.custom-navbar-component {
+    padding: 20px 5%;
+    width: 100%;
+    position: absolute;
+}
+.custom-navbar-component svg {
+    width: 200px;
+    height: auto;
+    padding: 10px 0;
+}
+.custom-navbar-router-action {
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 7px;
+    user-select: none;
+    border: 3px solid var(--var-color-component-advanced);
+    transition: all 0.4s ease-out;
+    text-transform: lowercase;
+    font-family: 'Chakra Petch', sans-serif;
+    background: var(--var-color-component-advanced);
+    color: var(--var-color-component-black);
+    padding: 13px 25px;
+    border-radius: 30px;
+}
+.custom-navbar-router-action:hover {
+    background: var(--var-color-component-black);
+    color: var(--var-color-component-advanced);
+}
+.custom-navbar-router-action:active {
+    background: var(--var-color-component-advanced);
+    color: var(--var-color-component-black);
+}
+@media only screen and (max-width: 750px) {
+    .custom-navbar-component svg {
+        width: 120px;
+        height: auto;
+        cursor: none;
+        padding: 10px 0;
+    }
+    .custom-navbar-router-action {
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 4px;
+        user-select: none;
+        border: 3px solid var(--var-color-component-advanced);
+        transition: all 0.4s ease-out;
+        text-transform: lowercase;
+        cursor: none;
+        font-family: 'Chakra Petch', sans-serif;
+        background: var(--var-color-component-advanced);
+        color: var(--var-color-component-black);
+        padding: 8px 18px;
+        border-radius: 30px;
+    }
+    
+}
